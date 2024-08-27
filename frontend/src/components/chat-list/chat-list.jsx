@@ -47,7 +47,7 @@ const ChatList = (props) => {
         } else {
             setSidebarUsers(predefinedUsers);
         }
-    }, [user, predefinedUsers, props.selectedChat]);
+    }, [user, predefinedUsers]);
 
     const getLastMessage = (userToChatWith) => {
         if (props.lastMessageGlobal) {

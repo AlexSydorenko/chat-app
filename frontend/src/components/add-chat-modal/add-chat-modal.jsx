@@ -18,6 +18,7 @@ const AddChatModal = ({ addChatModalVisibility, changeAddChatModalVisibility, ad
         axios.post(`/api/auth/login-user-to-chat/${user._id}`, { fullName: `${firstName} ${lastName}` })
             .then(res => res.data)
             .then(newUser => {
+                console.log(newUser);
                 addNewSidebarUser({
                     userInfo: newUser,
                     lastMessage: null
