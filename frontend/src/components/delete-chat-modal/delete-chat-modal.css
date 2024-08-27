@@ -1,0 +1,46 @@
+.delete-chat-modal {
+    cursor: auto;
+    position: absolute;
+    z-index: 1000;
+    top: 10%;
+    right: 10%;
+    background-color: #fff;
+    border: 1px solid #b7b7b7;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    padding: 10px;
+    max-width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete-chat-modal-title {
+    font-size: 16px;
+}
+
+.delete-chat-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.delete-chat-btns button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.delete-chat-confirm {
+    background-color: #64a3dd;
+    color: #fff;
+}
+
+.delete-chat-reject {
+    background-color: #fff;
+    border: 1px solid #b7b7b7;
+}

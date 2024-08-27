@@ -1,0 +1,69 @@
+.info-search-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+
+    background-color: #e9e9e9;
+    border: 1px solid #b7b7b7;
+}
+
+.auth-user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-user-data {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logged-user-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.auth-user-fullname {
+    font-size: 20px;
+}
+
+.log-in-btn, .log-out-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-weight: 700;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.log-in-btn {
+    color: #6cb6e7;
+}
+
+.log-out-btn {
+    color: #ca5a5c;
+}
+
+.search-chat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #fff;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #bbbbbb;
+}
+
+.search-chat-form {
+    width: 90%;
+}
+
+.search-chat-form input {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.chat-list-wrapper {
+    padding-top: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 1px solid #b7b7b7;
+    border-top: none;
+    border-bottom: none;
+}
+
+.chat-list-header {
+    position: relative;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 15px;
+}
+
+.chat-list-title {
+    font-size: 26px;
+    color: #6cb6e7;
+}
+
+.add-new-chat-btn {
+    cursor: pointer;
+}

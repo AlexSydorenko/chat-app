@@ -1,0 +1,23 @@
+.chat-messages-wrapper {
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+    border: 1px solid #b7b7b7;
+    border-right: none;
+    border-left: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px 15px;
+}
+
+.message-ref-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.my-message-ref-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
