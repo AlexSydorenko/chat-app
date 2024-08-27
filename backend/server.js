@@ -17,6 +17,11 @@ dotenv.config();
 app.use(express.json());
 app.use(cors());
 
+app.use(express.static(path.join(__dirname, '../ui-build')));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../ui-build', 'index.html'));
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/messages', messageRoutes);
 app.use('/api/users', userRoutes);
